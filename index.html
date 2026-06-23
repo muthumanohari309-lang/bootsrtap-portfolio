@@ -1,0 +1,644 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio â€” Dev Dashboard</title>
+	<!-- Bootstrap 5 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap Icons -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.5/font/bootstrap-icons.css" rel="stylesheet">
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <meta name="description" content="Personal portfolio inspired by a GitHub profile dashboard">
+</head>
+
+<body>
+
+	<!-- Navbar -->
+	<nav id="mainNav" class="navbar navbar-expand-lg navbar-light bg-light border-bottom sticky-top shadow-sm">
+		<div class="container">
+			<a class="navbar-brand d-flex align-items-center" href="#">
+				<span class="bi bi-github fs-3 me-2"></span>
+				<span class="fw-bold">DevDashboard</span>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navMenu">
+				<ul class="navbar-nav ms-auto align-items-lg-center">
+					<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+					<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+					<li class="nav-item"><a class="nav-link" href="#stats">Statistics</a></li>
+					<li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main class="container py-5" id="home">
+		<!-- Hero / Profile -->
+		<section class="row g-4 align-items-center mb-5">
+			<div class="col-lg-4">
+				<div class="card profile-card p-4 shadow-sm">
+					<div class="d-flex align-items-center">
+						<img src="girl.jpeg" alt="Profile" class="rounded-circle profile-img me-3">
+						<div>
+							<h2 class="h5 mb-0">Manohari Dev</h2>
+							<small class="text-muted">System Administrator / Full Stack Developer</small>
+						</div>
+					</div>
+					<p class="mt-3 small">Passionate about building reliable infra and delightful web experiences. I automate, secure and ship.</p>
+					<ul class="list-unstyled small mb-3">
+						<li><i class="bi bi-geo-alt me-2"></i>New York, USA</li>
+						<li><i class="bi bi-briefcase me-2"></i>8+ years experience</li>
+					</ul>
+					<div class="d-grid gap-2 d-md-block">
+						<a class="btn btn-outline-dark btn-sm me-2" href="#" title="GitHub"><i class="bi bi-github"></i></a>
+						<a class="btn btn-outline-primary btn-sm me-2" href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+						<a class="btn btn-outline-info btn-sm me-2" href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+						<a class="btn btn-outline-secondary btn-sm me-2" href="mailto:muthumanohari309@gmail.com" title="Email"><i class="bi bi-envelope"></i></a>
+					</div>
+					<div class="mt-3 d-flex gap-2">
+						<a class="btn btn-primary btn-sm" href="#">Download Resume</a>
+						<a class="btn btn-outline-primary btn-sm" href="#contact">Contact Me</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-8">
+				<div class="card welcome-card p-4 shadow-sm h-100">
+					<h1 class="mb-2">Welcome</h1>
+					<p class="lead animated-intro">Hi, I'm <span class="fw-bold">Manohari</span> I build scalable systems and web apps.</p>
+					<p class="mb-0">I specialize in Linux, cloud-native tools, automation, and full stack web development. I enjoy mentoring and open-source collaboration.</p>
+                        <div class="mt-4">
+                            <a class="btn btn-outline-dark me-2" href="#projects"><i class="bi bi-folder2-open me-1"></i>View Projects</a>
+                            <a class="btn btn-outline-success" href="#stats"><i class="bi bi-graph-up me-1"></i>View Stats</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h3 class="h5">Technologies &amp; Tools</h3>
+                <small class="text-muted">Hover for details</small>
+            </div>
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-3">
+
+    <!-- Git -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-git-plain colored"></i>
+            <span>Git</span>
+        </div>
+    </div>
+
+    <!-- GitHub -->
+    <div class="col">
+        <a href="https://github.com/muthumanohari309-lang" target="_blank" class="text-decoration-none text-dark">
+            <div class="tech-card">
+                <i class="devicon-github-original colored"></i>
+                <span>GitHub</span>
+            </div>
+        </a>
+    </div>
+    <!-- Docker -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-docker-plain colored"></i>
+            <span>Docker</span>
+        </div>
+    </div>
+
+    <!-- Linux -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-linux-plain"></i>
+            <span>Linux</span>
+        </div>
+    </div>
+
+    <!-- Ansible -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-ansible-plain colored"></i>
+            <span>Ansible</span>
+        </div>
+    </div>
+
+    <!-- Nextcloud -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-nextcloud-plain colored"></i>
+            <span>Nextcloud</span>
+        </div>
+    </div>
+
+    <!-- Grafana -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-grafana-plain colored"></i>
+            <span>Grafana</span>
+        </div>
+    </div>
+
+    <!-- InfluxDB -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-influxdb-original colored"></i>
+            <span>InfluxDB</span>
+        </div>
+    </div>
+
+    <!-- Apache -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-apache-plain colored"></i>
+            <span>Apache</span>
+        </div>
+    </div>
+
+    <!-- PHP -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-php-plain colored"></i>
+            <span>PHP</span>
+        </div>
+    </div>
+
+    <!-- OpenSSL -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-openssl-original"></i>
+            <span>OpenSSL</span>
+        </div>
+    </div>
+
+    <!-- MySQL -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-mysql-plain colored"></i>
+            <span>MySQL</span>
+        </div>
+    </div>
+
+    <!-- MariaDB -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-mariadb-original colored"></i>
+            <span>MariaDB</span>
+        </div>
+    </div>
+
+    <!-- Elasticsearch -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-elasticsearch-plain colored"></i>
+            <span>Elasticsearch</span>
+        </div>
+    </div>
+
+    <!-- Kibana -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-kibana-plain colored"></i>
+            <span>Kibana</span>
+        </div>
+    </div>
+
+    <!-- Python -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-python-plain colored"></i>
+            <span>Python</span>
+        </div>
+    </div>
+
+    <!-- Java -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-java-plain colored"></i>
+            <span>Java</span>
+        </div>
+    </div>
+
+    <!-- Kotlin -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-kotlin-plain colored"></i>
+            <span>Kotlin</span>
+        </div>
+    </div>
+
+    <!-- Android -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-android-plain colored"></i>
+            <span>Android</span>
+        </div>
+    </div>
+
+    <!-- Golang -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-go-original-wordmark colored"></i>
+            <span>Golang</span>
+        </div>
+    </div>
+
+    <!-- Angular -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-angularjs-plain colored"></i>
+            <span>Angular</span>
+        </div>
+    </div>
+
+    <!-- Firebase -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-firebase-plain colored"></i>
+            <span>Firebase</span>
+        </div>
+    </div>
+
+    <!-- VS Code -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-vscode-plain colored"></i>
+            <span>VS Code</span>
+        </div>
+    </div>
+
+    <!-- IntelliJ -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-intellij-plain colored"></i>
+            <span>IntelliJ IDEA</span>
+        </div>
+    </div>
+
+    <!-- Postman -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-postman-plain colored"></i>
+            <span>Postman</span>
+        </div>
+    </div>
+
+    <!-- Raspberry Pi -->
+    <div class="col">
+        <div class="tech-card">
+            <i class="devicon-raspberrypi-line colored"></i>
+            <span>Raspberry Pi</span>
+        </div>
+    </div>
+
+</div>
+        </section>
+
+		<!-- GitHub Statistics Dashboard -->
+		<section id="stats" class="mb-5">
+			<h3 class="h5 mb-3">GitHub Statistics</h3>
+			<div class="row g-3">
+				<div class="col-md-4">
+					<div class="card p-3 shadow-sm stat-card">
+						<div class="d-flex justify-content-between align-items-center">
+							<div>
+								<small class="text-muted">Total Stars</small>
+								<div class="h4 mb-0 counter" data-target="124">0</div>
+							</div>
+							<i class="bi bi-star-fill fs-2 text-warning"></i>
+						</div>
+						<div class="progress mt-3" style="height:6px;">
+							<div class="progress-bar bg-warning" style="width:70%"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card p-3 shadow-sm stat-card">
+						<div class="d-flex justify-content-between align-items-center">
+							<div>
+								<small class="text-muted">Total Repositories</small>
+								<div class="h4 mb-0 counter" data-target="48">0</div>
+							</div>
+							<i class="bi bi-folder2-open fs-2 text-primary"></i>
+						</div>
+						<div class="progress mt-3" style="height:6px;">
+							<div class="progress-bar bg-primary" style="width:60%"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card p-3 shadow-sm stat-card">
+						<div class="d-flex justify-content-between align-items-center">
+							<div>
+								<small class="text-muted">Total Contributions</small>
+								<div class="h4 mb-0 counter" data-target="2540">0</div>
+							</div>
+							<i class="bi bi-activity fs-2 text-success"></i>
+						</div>
+						<div class="progress mt-3" style="height:6px;">
+							<div class="progress-bar bg-success" style="width:85%"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row g-3 mt-3">
+				<div class="col-md-4">
+					<div class="card p-3 shadow-sm stat-card">
+						<small class="text-muted">Pull Requests</small>
+						<div class="h5 mb-0 counter" data-target="312">0</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card p-3 shadow-sm stat-card">
+						<small class="text-muted">Issues</small>
+						<div class="h5 mb-0 counter" data-target="89">0</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card p-3 shadow-sm stat-card">
+						<small class="text-muted">Followers</small>
+						<div class="h5 mb-0 counter" data-target="1024">0</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Featured Projects -->
+		<section id="projects" class="mb-5">
+			<div class="d-flex justify-content-between align-items-center mb-3">
+				<h3 class="h5">Featured Projects</h3>
+				<small class="text-muted">Selected work</small>
+			</div>
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+				<!-- Repeat project card 6+ times -->
+				<!-- Project 1 -->
+				<div class="col">
+					<div class="card h-100 shadow-sm project-card">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Project One</h5>
+							<p class="card-text small text-muted">A web platform for monitoring sensors and visualizing metrics.</p>
+							<div class="mt-auto d-flex justify-content-between align-items-center">
+								<div><span class="badge bg-secondary">Docker</span> <span class="badge bg-secondary">InfluxDB</span></div>
+								<div>
+									<a class="btn btn-outline-dark btn-sm me-1" href="#"><i class="bi bi-github"></i></a>
+									<a class="btn btn-primary btn-sm" href="#">Live Demo</a>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer d-flex justify-content-between small text-muted">
+							<div><i class="bi bi-star-fill text-warning"></i> 24</div>
+							<div>Updated 2 months ago</div>
+						</div>
+					</div>
+				</div>
+				<!-- Project 2 -->
+				<div class="col">
+					<div class="card h-100 shadow-sm project-card">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Project Two</h5>
+							<p class="card-text small text-muted">An automated backup solution for Nextcloud using Ansible.</p>
+							<div class="mt-auto d-flex justify-content-between align-items-center">
+								<div><span class="badge bg-secondary">Ansible</span> <span class="badge bg-secondary">Nextcloud</span></div>
+								<div>
+									<a class="btn btn-outline-dark btn-sm me-1" href="#"><i class="bi bi-github"></i></a>
+									<a class="btn btn-primary btn-sm" href="#">Live Demo</a>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer d-flex justify-content-between small text-muted">
+							<div><i class="bi bi-star-fill text-warning"></i> 18</div>
+							<div>Updated 4 months ago</div>
+						</div>
+					</div>
+				</div>
+				<!-- Project 3 -->
+				<div class="col">
+					<div class="card h-100 shadow-sm project-card">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Project Three</h5>
+							<p class="card-text small text-muted">A developer dashboard for visualizing GitHub activity.</p>
+							<div class="mt-auto d-flex justify-content-between align-items-center">
+								<div><span class="badge bg-secondary">React</span> <span class="badge bg-secondary">GraphQL</span></div>
+								<div>
+									<a class="btn btn-outline-dark btn-sm me-1" href="#"><i class="bi bi-github"></i></a>
+									<a class="btn btn-primary btn-sm" href="#">Live Demo</a>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer d-flex justify-content-between small text-muted">
+							<div><i class="bi bi-star-fill text-warning"></i> 30</div>
+							<div>Updated 1 month ago</div>
+						</div>
+					</div>
+				</div>
+				<!-- Project 4 -->
+				<div class="col">
+					<div class="card h-100 shadow-sm project-card">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Project Four</h5>
+							<p class="card-text small text-muted">A secure API gateway with rate limiting and auth.</p>
+							<div class="mt-auto d-flex justify-content-between align-items-center">
+								<div><span class="badge bg-secondary">Golang</span> <span class="badge bg-secondary">OAuth</span></div>
+								<div>
+									<a class="btn btn-outline-dark btn-sm me-1" href="#"><i class="bi bi-github"></i></a>
+									<a class="btn btn-primary btn-sm" href="#">Live Demo</a>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer d-flex justify-content-between small text-muted">
+							<div><i class="bi bi-star-fill text-warning"></i> 12</div>
+							<div>Updated 6 months ago</div>
+						</div>
+					</div>
+				</div>
+				<!-- Project 5 -->
+				<div class="col">
+					<div class="card h-100 shadow-sm project-card">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Project Five</h5>
+							<p class="card-text small text-muted">Mobile app for field technicians with offline sync.</p>
+							<div class="mt-auto d-flex justify-content-between align-items-center">
+								<div><span class="badge bg-secondary">Android</span> <span class="badge bg-secondary">SQLite</span></div>
+								<div>
+									<a class="btn btn-outline-dark btn-sm me-1" href="#"><i class="bi bi-github"></i></a>
+									<a class="btn btn-primary btn-sm" href="#">Live Demo</a>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer d-flex justify-content-between small text-muted">
+							<div><i class="bi bi-star-fill text-warning"></i> 9</div>
+							<div>Updated 8 months ago</div>
+						</div>
+					</div>
+				</div>
+				<!-- Project 6 -->
+				<div class="col">
+					<div class="card h-100 shadow-sm project-card">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Project Six</h5>
+							<p class="card-text small text-muted">An internal tool to manage infrastructure as code.</p>
+							<div class="mt-auto d-flex justify-content-between align-items-center">
+								<div><span class="badge bg-secondary">Terraform</span> <span class="badge bg-secondary">Ansible</span></div>
+								<div>
+									<a class="btn btn-outline-dark btn-sm me-1" href="#"><i class="bi bi-github"></i></a>
+									<a class="btn btn-primary btn-sm" href="#">Live Demo</a>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer d-flex justify-content-between small text-muted">
+							<div><i class="bi bi-star-fill text-warning"></i> 15</div>
+							<div>Updated 3 months ago</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <!-- Certifications -->
+      <section id="certifications" class="mb-5">
+        <div class="container">
+          <h3 data-aos="fade-up">Certifications</h3>
+          <div class="row g-3 mt-3">
+            <div class="col-sm-6 col-md-4" data-aos="zoom-in">
+              <div class="card glass p-3 h-100">
+                <img src="https://via.placeholder.com/600x300?text=Certificate" class="img-fluid mb-3 rounded" alt="cert" />
+                <h6>NPTEL</h6>
+                <small class="text-secondary">Indian Institute of Technology</small>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card glass p-3 h-100">
+                <img src="https://via.placeholder.com/600x300?text=Certificate" class="img-fluid mb-3 rounded" alt="cert" />
+                <h6>PGDCA Course</h6>
+                <small class="text-secondary">TCDS Computer Education</small>
+              </div>
+            </div>
+			<div class="col-sm-6 col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            	<div class="card glass p-3 h-100">
+                	<img src="https://via.placeholder.com/600x300?text=Certificate" class="img-fluid mb-3 rounded" alt="cert" />
+                	<h6>Web Development</h6>
+                	<small class="text-secondary">Online</small>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+		<!-- Experience Timeline -->
+		<section id="experience" class="mb-5">
+			<h3 class="h5 mb-3">Experience</h3>
+			<div class="timeline">
+				<div class="timeline-item">
+					
+					<div class="timeline-content card p-3 shadow-sm">
+						<h6 class="mb-0">Senior SysAdmin</h6>
+						<small class="text-muted">Acme Corp â€” 2020 - Present</small>
+						<p class="mt-2 small mb-0">Managed cloud infrastructure, automated deployments, improved observability and incident response.</p>
+					</div>
+				</div>
+				<div class="timeline-item">
+				
+					<div class="timeline-content card p-3 shadow-sm">
+						<h6 class="mb-0">Full Stack Developer</h6>
+						<small class="text-muted">BetaTech â€” 2017 - 2020</small>
+						<p class="mt-2 small mb-0">Built customer-facing web apps and internal dashboards with modern JS stacks and REST APIs.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contribution Heatmap -->
+		<section id="contributions" class="mb-5">
+			<div class="d-flex justify-content-between align-items-center mb-3">
+				<h3 class="h5">Contribution Heatmap</h3>
+				<div class="btn-group" role="group">
+					<button class="btn btn-sm btn-outline-secondary year-filter active" data-year="2026">2026</button>
+					<button class="btn btn-sm btn-outline-secondary year-filter" data-year="2025">2025</button>
+					<button class="btn btn-sm btn-outline-secondary year-filter" data-year="2024">2024</button>
+				</div>
+			</div>
+			<div class="card p-3 shadow-sm">
+				<div id="heatmap" class="heatmap-grid"></div>
+				<div class="mt-2 small text-muted" id="activitySummary">Activity summary: <span id="summaryCount">0</span> contributions</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="mb-5">
+			<h3 class="h5 mb-3">Contact</h3>
+			<div class="row g-4">
+				<div class="col-lg-6">
+					<div class="card p-3 shadow-sm">
+						<form id="contactForm">
+							<div class="mb-3">
+								<label class="form-label">Name</label>
+								<input class="form-control" type="text" required>
+							</div>
+							<div class="mb-3">
+								<label class="form-label">Email</label>
+								<input class="form-control" type="email" required>
+							</div>
+							<div class="mb-3">
+								<label class="form-label">Subject</label>
+								<input class="form-control" type="text">
+							</div>
+							<div class="mb-3">
+								<label class="form-label">Message</label>
+								<textarea class="form-control" rows="5"></textarea>
+							</div>
+							<div class="d-flex gap-2">
+								<button class="btn btn-primary" type="submit">Send Message</button>
+								<button class="btn btn-outline-secondary" type="reset">Reset</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="card p-3 shadow-sm">
+						<h6>Contact Details</h6>
+						<ul class="list-unstyled small">
+							<li><i class="bi bi-geo-alt me-2"></i>Thirunelveli, India</li>
+							<li><i class="bi bi-telephone me-2"></i>+7339287214</li>
+							<li><i class="bi bi-envelope me-2"></i>muthumanohari309@gmail.com</li>
+						</ul>
+						<div class="mt-3">
+							<a class="btn btn-outline-dark me-2" href="#"><i class="bi bi-github me-1"></i>GitHub</a>
+							<a class="btn btn-outline-primary me-2" href="#"><i class="bi bi-linkedin me-1"></i>LinkedIn</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer -->
+	<footer class="bg-light border-top py-3">
+		<div class="container d-flex justify-content-between align-items-center">
+			<div class="small">Â©2026Manohari â€” All rights reserved.</div>
+			<div>
+				<a class="me-3" href="#home">Back to top</a>
+			</div>
+		</div>
+	</footer>
+
+	<button id="backToTop" class="btn btn-primary btn-lg back-to-top" title="Back to top"><i class="bi bi-chevron-up"></i></button>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
+
+
